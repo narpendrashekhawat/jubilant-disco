@@ -1,0 +1,221 @@
+/* Reset basic margins and paddings */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* Base header styling */
+.amazon-header {
+    width: 100%;
+    color: white;
+    min-width: 1000px;
+}
+
+/* --- FIRST LINE (Top Nav) --- */
+.nav-top {
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    height: 60px;
+    padding: 0 10px;
+    gap: 10px;
+
+}
+
+/* Logo  Styling */
+.nav-logo {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.amazon-logo {
+    width: 95px;
+    margin-top: 5px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: -2px;
+}
+/* Hover effect for navbar items */
+.border-hover {
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+.border-hover:hover {
+    border: 1px solid white;
+}
+
+/* Typography utilities */
+.text-small {
+    font-size: 12px;
+    color: #cccccc;
+    line-height: 14px;
+
+}
+.text-bold {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+/* Location Specific {
+.nav-location {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.location-icon {
+font-size: 15px;
+margin-right: 4px;
+}
+
+.location-bottom {
+display: flex;
+align-items: center;
+}
+
+.location-top-text {
+padding-left: 17px;
+}
+
+
+/* Search Bar Styling */
+.nav-search {
+    display: flex;
+    flex: 1; /*Allows the search bar to grow and take up remainig space */
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.nav-search:focus-within {
+    border: 3px solid #f90;
+}
+
+search-select {
+    background-color: #f3f3f3;
+    border: none;
+    border-right: 1px solid #cdcdcd;
+    padding: 0 10px;
+    color: #333;
+    cursor: pointer;
+    width: 50px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.search-btn {
+    background-color: #febd69;
+    border: none;
+    width: 45px;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+
+}
+ .search-btn:hover {
+    background-color: #f3a847;
+
+ }
+
+ /* Cart Specific */
+ .nav-cart {
+    display: flex;
+    align-items: end;
+ }
+
+ /* --- SECOND LINE (Bottom Nav) --- */
+ .nav-bottom {
+    display: flex;
+    align-items: center;
+    background-color: #232f3e; /* Slightly lighter dark blue */
+    height: 40px;
+    padding: 0 5px;
+    gap: 2px;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+
+ .nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 100%;
+    padding: 0 8px;
+    white-space: nowrap;
+ }
+
+ /* Language Specific (Add to bottom of style.css) */
+ .nav-language {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+ }
+
+ .india-flag {
+    width: 20px;
+    margin-right: 5px;
+ }
+
+ .caret-icon {
+    font-size: 10px;
+    color: #a7acb2;
+    margin-left: 2px;
+    margin-top: 5px;
+ }
+ 
+ /* Cart Specific Updates (Add to bottom of style.css) */
+ .nav-cart {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8px;
+
+ }
+
+ .cart-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+ }
+
+ .cart-icon {
+    font-size: 38px;
+    color: white;
+
+ }
+
+ .cart-count {
+    position: absolute;
+    top: -2px;
+    left: 15px;
+    color: #f08804;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ .cart-text {
+    margin-bottom: 2px;
+ }
