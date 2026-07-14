@@ -76,23 +76,22 @@ body {
 /* Location Specific {
 .nav-location {
 display: flex;
-align-items: flex-start;
+align-items: center;
 gap: 6px;
 cursor: pointer;
-padding: 8px 2px 4px 2px;
+padding: 8px 8px;
 }
 
 .location-icon {
 font-size: 20px;
 color: #ffffff;
-flex-shrink: 0;
-margin-top: 2px;
+align-self: flex-end;
+margin-bottom: 4px;
 }
 
 .location-text{
 display: flex;
 flex-direction: column;
-margin-top: 10px;
 }
 
 .location-text p {
@@ -107,9 +106,9 @@ line-height: 14px;
 
 .text-bold {
 font-size: 14px;
-font-weight: bold;
+font-weight: 700;
 color: #ffffff;
-line-height: 15px;
+line-height: 16px;
 }
 
 
