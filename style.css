@@ -70,28 +70,29 @@ body {
     font-size: 14px;
     font-weight: bold;
     line-height: 15px;
+    color: #ffffff;
 }
 
 /* Location Specific {
 .nav-location {
 display: flex;
-align-items: flex-end;
-padding: 5px 2px;
-padding-bottom: 6px;
+align-items: center;
+gap: 6px;
+cursor: pointer;
+padding: 8px 2px 4px 2px;
 }
 
-
 .location-icon {
-font-size: 15px;
+font-size: 20px;
 color: #ffffff;
-margin-right: 8px;
-padding-bottom: 2px;
-
+flex-shrink: 0;
 }
 
 .location-text{
 display: flex;
 flex-direction: column;
+justify-content: center;
+margin-top: 3px;
 }
 
 .location-text p {
@@ -125,7 +126,7 @@ line-height: 15px;
     border: 3px solid #f90;
 }
 
-search-select {
+.search-select {
     background-color: #f3f3f3;
     border: none;
     border-right: 1px solid #cdcdcd;
@@ -209,14 +210,13 @@ search-select {
  .nav-cart {
     display: flex;
     align-items: flex-end;
-    padding-bottom: 8px;
+    cursor: pointer;
 
  }
 
- .cart-icon-wrapper {
+ .cart-wrapper {
     position: relative;
     display: flex;
-    align-items: center;
  }
 
  .cart-icon {
@@ -225,10 +225,10 @@ search-select {
 
  }
 
- .cart-count {
+ .cart-number {
     position: absolute;
-    top: -2px;
-    left: 15px;
+    top: 2px;
+    left: 20px;
     color: #f08804;
     font-weight: bold;
     font-size: 16px;
@@ -236,4 +236,7 @@ search-select {
 
  .cart-text {
     margin-bottom: 2px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
  }
