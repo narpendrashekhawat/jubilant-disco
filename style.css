@@ -73,19 +73,20 @@ body {
     color: #ffffff;
 }
 
-/* Location Specific {
+/* Location Specific */
 .nav-location {
 display: flex;
 align-items: flex-end;
-gap: 6px;
+gap: 4px;
+height: 50px;
 cursor: pointer;
 padding: 8px;
 }
 
 .location-icon {
-font-size: 20px;
+font-size: 18px;
 color: #ffffff;
-margin-bottom: 3px;
+margin-bottom: 2px;
 }
 
 .location-text{
@@ -93,17 +94,13 @@ display: flex;
 flex-direction: column;
 }
 
-.location-text p {
-margin: 0;
-}
-
-.text-small {
+.location-text .text-small {
 font-size: 12px;
 color: #cccccc;
 line-height: 14px;
 }
 
-.text-bold {
+.location-text .text-bold {
 font-size: 14px;
 font-weight: 700;
 color: #ffffff;
