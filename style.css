@@ -31,21 +31,21 @@ body {
 /* Logo  Styling */
 .nav-logo {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     
 }
 
 .amazon-logo {
     width: 95px;
-    margin-top: 5px;
 }
 
 .logo-text {
     color: white;
-    font-size: 14px;
-    margin-top: 12px;
-    margin-left: -2px;
+    font-size: 13px;
+    margin-left: -1px;
+    margin-top: -9px;
 }
+
 /* Hover effect for navbar items */
 .border-hover {
     padding: 8px;
@@ -84,7 +84,7 @@ padding: 8px;
 }
 
 .location-icon {
-font-size: 18px;
+font-size: 15px;
 color: #ffffff;
 margin-bottom: 2px;
 }
